@@ -1,0 +1,24 @@
+/* =================================
+  COMPONENT: #Navigation
+==================================== */
+
+.main-nav {
+  margin-top: 5px;
+
+  @media (min-width: 769px) {
+    display: flex;
+  }
+
+  a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    font-size: 0.95em;
+    color: #3acec2;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #093a58;
+    }
+  }
+}

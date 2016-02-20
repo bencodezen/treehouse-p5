@@ -1,0 +1,22 @@
+/* =================================
+  COMPONENT: #Header
+==================================== */
+
+.main-header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+  @media (min-width: 769px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+
+  @media (min-width: 1025px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

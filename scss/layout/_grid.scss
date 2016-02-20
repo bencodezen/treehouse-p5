@@ -1,0 +1,18 @@
+/* =================================
+  LAYOUT: #Grid
+==================================== */
+
+.row {
+  flex: 1;
+
+  @media (min-width: 769px) {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+}
+
+.col {
+  padding-right: 1em;
+  padding-left: 1em;
+}
