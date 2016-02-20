@@ -3,19 +3,17 @@
 ==================================== */
 
 .main-header {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 
-  @media (min-width: 769px) {
+  @media (min-width: $tablet) {
+    @include tabletLayout;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1150px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: $desktop) {
     flex-direction: row;
     justify-content: space-between;
   }

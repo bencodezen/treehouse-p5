@@ -5,10 +5,8 @@
 .row {
   flex: 1;
 
-  @media (min-width: 769px) {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1150px;
+  @media (min-width: $tablet) {
+    @include tabletLayout;
   }
 }
 

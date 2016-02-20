@@ -1,0 +1,32 @@
+/* =================================
+  SETTINGS: #Settings
+==================================== */
+
+// Colors
+// --------------------------------------
+
+$black: #3a3a3a;
+$blue: #093a58;
+$grey: #d9e4ea;
+$teal: #3acec2;
+$white: #fff;
+
+// Font
+// --------------------------------------
+
+$primary-font: 'Varela Round', sans-serif;
+
+// Breakpoints
+// --------------------------------------
+
+$tablet: 769px;
+$desktop: 1025px;
+
+// Mixin
+// --------------------------------------
+
+@mixin tabletLayout {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1150px;
+}

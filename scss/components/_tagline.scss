@@ -3,7 +3,7 @@
 ==================================== */
 
 .tagline {
-  @media (min-width: 769px) {
+  @media (min-width: $tablet) {
     font-size: 1.4em;
   }
 }
