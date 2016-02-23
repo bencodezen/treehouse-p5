@@ -4,6 +4,6 @@
 
 .tagline {
   @media (min-width: $tablet) {
-    font-size: 1.4em;
+    font-size: $font-size-tagline;
   }
 }

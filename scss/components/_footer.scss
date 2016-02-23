@@ -2,8 +2,10 @@
   COMPONENT: #Footer
 ==================================== */
 
+@import "settings/settings";
+
 .main-footer {
-  text-align: center;
+  @extend %text-center;
   background: $grey;
   padding: 2em 0;
   margin-top: 30px;

@@ -16,6 +16,10 @@ $white: #fff;
 
 $primary-font: 'Varela Round', sans-serif;
 
+$font-size-body: 0.95em;
+$font-size-name: 1.35em;
+$font-size-tagline: 1.4em;
+
 // Breakpoints
 // --------------------------------------
 
@@ -29,4 +33,11 @@ $desktop: 1025px;
   width: 80%;
   margin: 0 auto;
   max-width: 1150px;
+}
+
+// Extends
+// --------------------------------------
+
+%text-center {
+  text-align: center;
 }

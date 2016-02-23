@@ -2,12 +2,14 @@
   OVERRIDE: #Typography
 ==================================== */
 
+@import "settings/settings";
+
 .name {
-  font-size: 1.35em;
+  font-size: $font-size-name;
   margin: 0;
 
   a {
-    text-align: center;
+    @extend %text-center;
     display: block;
     padding: 10px 15px;
   }

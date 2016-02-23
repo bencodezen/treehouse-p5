@@ -2,6 +2,8 @@
   COMPONENT: #Navigation
 ==================================== */
 
+@import "settings/settings";
+
 .main-nav {
   margin-top: 5px;
 
@@ -10,10 +12,10 @@
   }
 
   a {
-    text-align: center;
+    @extend %text-center;
     display: block;
     padding: 10px 15px;
-    font-size: 0.95em;
+    font-size: $font-size-body;
     color: $teal;
     text-transform: uppercase;
 

@@ -2,8 +2,10 @@
   COMPONENT: #Banner
 ==================================== */
 
+@import "settings/settings";
+
 .banner {
-  text-align: center;
+  @extend %text-center;
   color: $white;
   background: $teal;
   padding: 1.8em 0;

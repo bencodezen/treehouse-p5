@@ -1,6 +1,9 @@
 /* =================================
   SETTINGS: #Settings
 ==================================== */
+.banner, .main-footer, .main-nav a, .name a {
+  text-align: center; }
+
 /* =================================
   BASE: #Elements
 ==================================== */
@@ -45,8 +48,13 @@ ul {
 /* =================================
   COMPONENT: #Banner
 ==================================== */
+/* =================================
+  SETTINGS: #Settings
+==================================== */
+.banner, .main-footer, .main-nav a, .name a {
+  text-align: center; }
+
 .banner {
-  text-align: center;
   color: #fff;
   background: #3acec2;
   padding: 1.8em 0;
@@ -55,8 +63,13 @@ ul {
 /* =================================
   COMPONENT: #Footer
 ==================================== */
+/* =================================
+  SETTINGS: #Settings
+==================================== */
+.banner, .main-footer, .main-nav a, .name a {
+  text-align: center; }
+
 .main-footer {
-  text-align: center;
   background: #d9e4ea;
   padding: 2em 0;
   margin-top: 30px; }
@@ -107,13 +120,18 @@ ul {
 /* =================================
   COMPONENT: #Navigation
 ==================================== */
+/* =================================
+  SETTINGS: #Settings
+==================================== */
+.banner, .main-footer, .main-nav a, .name a {
+  text-align: center; }
+
 .main-nav {
   margin-top: 5px; }
   @media (min-width: 769px) {
     .main-nav {
       display: flex; } }
   .main-nav a {
-    text-align: center;
     display: block;
     padding: 10px 15px;
     font-size: 0.95em;
@@ -121,6 +139,13 @@ ul {
     text-transform: uppercase; }
     .main-nav a:hover {
       color: #093a58; }
+
+/* =================================
+  COMPONENT: #Tagline
+==================================== */
+@media (min-width: 769px) {
+  .tagline {
+    font-size: 1.4em; } }
 
 /* =================================
   LAYOUT: #Grid
@@ -140,11 +165,16 @@ ul {
 /* =================================
   OVERRIDE: #Typography
 ==================================== */
+/* =================================
+  SETTINGS: #Settings
+==================================== */
+.banner, .main-footer, .main-nav a, .name a {
+  text-align: center; }
+
 .name {
   font-size: 1.35em;
   margin: 0; }
   .name a {
-    text-align: center;
     display: block;
     padding: 10px 15px; }
 
