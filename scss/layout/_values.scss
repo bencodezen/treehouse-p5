@@ -1,0 +1,16 @@
+// ============================================================================
+// COMPONENT: #Values
+// ============================================================================
+
+.values {
+  @media screen and (min-width: $tablet) {
+    @include flex;
+    @include flex-wrap;
+  }
+
+  .section-title {
+    @media screen and (min-width: $tablet) {
+      @include flex-fill(100%);
+    }
+  }
+}
