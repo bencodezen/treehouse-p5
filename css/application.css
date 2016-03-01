@@ -1,17 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:400,400italic);
-/* ====================
-   Mobile
-   ==================== */
-/* General */
 * {
-  box-sizing: border-box;
-  font-family: sans-serif; }
+  box-sizing: border-box; }
 
 html {
   background: #f0f0f0;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Raleway', sans-serif; }
+  line-height: 1.5; }
 
 body {
   margin: 0; }
