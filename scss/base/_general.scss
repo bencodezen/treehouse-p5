@@ -1,0 +1,33 @@
+// ============================================================================
+// BASE: #General
+// ============================================================================
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:400,400italic);
+
+/* ====================
+   Mobile
+   ==================== */
+
+/* General */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  background: #f0f0f0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
