@@ -231,7 +231,6 @@ nav ul {
     padding: 0 10px; } }
 
 @media screen and (min-width: 768px) {
-  /* Overrides */
   .mobile-only {
     display: none; } }
 

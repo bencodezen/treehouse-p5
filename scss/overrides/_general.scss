@@ -2,11 +2,9 @@
 // OVERRIDES: #General
 // ============================================================================
 
-@media screen and (min-width: 768px) {
+.mobile-only {
 
-  /* Overrides */
-
-  .mobile-only {
+  @media screen and (min-width: $tablet) {
     display: none;
   }
 }
