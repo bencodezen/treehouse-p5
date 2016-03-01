@@ -3,18 +3,16 @@
 // ============================================================================
 
 .contact {
-  background: #fff;
-}
+  background: $white;
 
-@media screen and (min-width: 768px) {
-  .contact__pitch {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
+  &__pitch {
+    @media screen and (min-width: $tablet) {
+      width: 60%;
+      margin: 0 auto;
+    }
 
-@media screen and (min-width: 1024px) {
-  .contact__pitch {
-    width: 45%;
+    @media screen and (min-width: $desktop) {
+      width: 45%;
+    }
   }
 }
