@@ -1,0 +1,19 @@
+// ============================================================================
+// COMPONENT: #Project
+// ============================================================================
+
+.project {
+  @media screen and (min-width: $tablet) {
+    @include flex-fill(50%);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include flex-fill(33%);
+  }
+
+  &__description {
+    @media screen and (min-width: $tablet) {
+      padding: 0 10px;
+    }
+  }
+}

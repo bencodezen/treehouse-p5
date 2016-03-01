@@ -1,0 +1,12 @@
+// ============================================================================
+// COMPONENT: #Portfolio
+// ============================================================================
+
+.portfolio {
+  background: $white;
+
+  @media screen and (min-width: $tablet) {
+    @include flex;
+    @include flex-wrap;
+  }
+}

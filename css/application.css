@@ -102,6 +102,18 @@ header {
 
   header h1 {
     padding-left: 10px; } }
+.portfolio {
+  background: white; }
+  @media screen and (min-width: 768px) {
+    .portfolio {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
+
 @media screen and (min-width: 768px) {
   .about {
     display: -webkit-box;
@@ -163,6 +175,11 @@ nav ul {
   list-style-type: none; }
   @media screen and (min-width: 768px) {
     nav ul {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -177,35 +194,22 @@ nav ul {
         background: none;
         padding: 10px 20px; } }
 
-.portfolio {
-  background: #fff; }
-
 @media screen and (min-width: 768px) {
-  /* Portfolio */
-  .portfolio {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-
   .project {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
-    flex: 1 1 50%; }
-
-  .project__description {
-    padding: 0 10px; } }
+    flex: 1 1 50%; } }
 @media screen and (min-width: 1024px) {
-  /* Portfolio */
   .project {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 33%;
     -ms-flex: 1 1 33%;
     flex: 1 1 33%; } }
+@media screen and (min-width: 768px) {
+  .project__description {
+    padding: 0 10px; } }
+
 @media screen and (min-width: 768px) {
   /* Values */
   .values {
