@@ -64,19 +64,17 @@ footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #8c8b8b;
+  border-top: 1px solid #8c8c8c;
   padding: 0 10px;
   font-size: 0.9em; }
+  footer nav ul li {
+    background: none; }
+    footer nav ul li:not(.mobile-only) {
+      display: none; }
+      @media screen and (min-width: 768px) {
+        footer nav ul li:not(.mobile-only) {
+          display: inline-block; } }
 
-footer nav ul li {
-  background: none; }
-
-footer nav ul li:not(.mobile-only) {
-  display: none; }
-
-@media screen and (min-width: 768px) {
-  footer nav ul li:not(.mobile-only) {
-    display: inline-block; } }
 section {
   padding: 20px 10px; }
 

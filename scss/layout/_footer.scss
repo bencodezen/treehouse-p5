@@ -3,33 +3,22 @@
 // ============================================================================
 
 footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-top: 1px solid #8c8b8b;
+  @include flex;
+  @include flex-justify-space-between;
+  @include flex-align-center;
+  border-top: 1px solid $darkGrey;
   padding: 0 10px;
   font-size: 0.9em;
-}
 
-footer nav ul li {
-  background: none;
-}
+  nav ul li {
+    background: none;
 
-footer nav ul li:not(.mobile-only) {
-  display: none;
-}
+    &:not(.mobile-only) {
+      display: none;
 
-@media screen and (min-width: 768px) {
-  footer nav ul li:not(.mobile-only) {
-    display: inline-block;
+      @media screen and (min-width: $tablet) {
+        display: inline-block;
+      }
+    }
   }
 }
