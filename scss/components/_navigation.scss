@@ -6,8 +6,8 @@ nav {
   ul {
     @include flex;
     @include flex-columns;
-    margin: 0;
-    padding: 0;
+    @extend %no-margin;
+    @extend %no-padding;
     list-style-type: none;
 
     @media screen and (min-width: $tablet) {
@@ -19,10 +19,10 @@ nav {
     }
 
     li {
+      @extend %text-center;
       margin: 5px 0;
       padding: 10px;
       background: $white;
-      text-align: center;
 
       @media screen and (min-width: $tablet) {
         background: none;

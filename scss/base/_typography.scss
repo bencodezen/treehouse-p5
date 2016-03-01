@@ -5,12 +5,12 @@
 h1,
 h2,
 h3 {
+  @extend %text-center;
   font-family: $fontFamilyHeading;
-  text-align: center;
 }
 
 p {
-  text-align: center;
+  @extend %text-center;
 }
 
 a {
@@ -35,10 +35,7 @@ a {
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    @include flex-fill(100%);
   }
 
   @media screen and (min-width: 1024px) {

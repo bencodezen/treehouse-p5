@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  margin: 0;
+  @extend %no-margin;
+  @extend %no-padding;
 }
 
 img {
