@@ -4,7 +4,7 @@
 
 .core-value {
 
-  @media screen and (min-width: $tablet) {
+  @include breakpoint($tablet) {
     @include flex-fill(33%);
     padding: 0 10px;
   }

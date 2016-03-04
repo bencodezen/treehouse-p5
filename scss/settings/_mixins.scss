@@ -2,6 +2,16 @@
 // LAYOUT: #Mixins
 // ============================================================================
 
+// Media Queries
+// ============================================================================
+@mixin breakpoint($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+// Flexbox
+// ============================================================================
 @mixin flex {
   display: -webkit-box;
   display: -webkit-flex;

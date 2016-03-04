@@ -5,7 +5,7 @@
 header {
   padding: 0 10px 20px;
 
-  @media screen and (min-width: $desktop) {
+  @include breakpoint($desktop) {
     @include flex;
     @include flex-justify-space-between;
     @include flex-align-center;

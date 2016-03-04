@@ -10,7 +10,7 @@ nav {
     @extend %no-padding;
     list-style-type: none;
 
-    @media screen and (min-width: $tablet) {
+    @include breakpoint($tablet) {
       @include flex-row;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
@@ -24,7 +24,7 @@ nav {
       padding: 10px;
       background: $white;
 
-      @media screen and (min-width: $tablet) {
+      @include breakpoint($tablet) {
         background: none;
         padding: 10px 20px;
       }

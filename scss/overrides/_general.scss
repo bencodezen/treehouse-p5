@@ -4,7 +4,7 @@
 
 .mobile-only {
 
-  @media screen and (min-width: $tablet) {
+  @include breakpoint($tablet) {
     display: none;
   }
 }

@@ -6,12 +6,12 @@
   background: $white;
 
   &__pitch {
-    @media screen and (min-width: $tablet) {
+    @include breakpoint($tablet) {
       width: 60%;
       margin: 0 auto;
     }
 
-    @media screen and (min-width: $desktop) {
+    @include breakpoint($desktop) {
       width: 45%;
     }
   }

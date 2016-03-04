@@ -5,7 +5,7 @@
 .portfolio {
   background: $white;
 
-  @media screen and (min-width: $tablet) {
+  @include breakpoint($tablet) {
     @include flex;
     @include flex-wrap;
   }

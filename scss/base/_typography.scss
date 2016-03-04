@@ -34,11 +34,11 @@ a {
   font-weight: bolder;
   text-transform: uppercase;
 
-  @media screen and (min-width: 768px) {
+  @inlude breakpoint($tablet) {
     @include flex-fill(100%);
   }
 
-  @media screen and (min-width: 1024px) {
+  @include breakpoint($desktop) {
     padding-bottom: 20px;
   }
 }
