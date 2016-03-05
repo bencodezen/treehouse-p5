@@ -34,7 +34,7 @@ a {
   font-weight: bolder;
   text-transform: uppercase;
 
-  @inlude breakpoint($tablet) {
+  @include breakpoint($tablet) {
     @include flex-fill(100%);
   }
 
